@@ -17,7 +17,7 @@ Docker is a Lightweight, Isolated, and Easily Accessible Software Technology:
 3. Complete the next steps using the default settings.
 
 ### Database
-A relational database helps store data in a structured manner. For our project, MariaDB, a MySQL sibling, serves as an alternative to DBMS.
+A relational database helps store data in a structured manner. For our project, MariaDB, a MySQL sibling is being used.
 
 ### Terminal Connection To MariaDB Docker Container
 #### Commands Used:
@@ -127,5 +127,5 @@ finally:
         connection.close()
 ```
 
-This code uses the MySQL connector library to connect to the mariadb container using the  MySQL url. The urllib.parse is used to parse the url according to the database connection requirements. Cursor is used to execute MySQL commands.  
+##This code uses the MySQL connector library to connect to the mariadb container using the  MySQL url. The urllib.parse is used to parse the url according to the database connection requirements. Cursor is used to execute MySQL commands.  
 
