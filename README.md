@@ -127,4 +127,5 @@ finally:
         connection.close()
 ```
 
-This improved version uses Markdown for better structure and readability. Feel free to adjust it further based on your preferences.
+This code uses the MySQL connector library to connect to the mariadb container using the  MySQL url. The urllib.parse is used to parse the url according to the database connection requirements. Cursor is used to execute MySQL commands.  
+
